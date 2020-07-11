@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -26,6 +26,7 @@
 <meta property="og:url" content="https://kirotori.github.io/archives/2020/07/index.html">
 <meta property="og:site_name" content="美食殿">
 <meta property="og:description" content="这里空空如也">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Byrd">
 <meta name="twitter:card" content="summary">
 
@@ -38,11 +39,11 @@
     sidebar: "",
     isHome : false,
     isPost : false,
-    lang   : 'zh-Hans'
+    lang   : 'zh-CN'
   };
 </script>
 
-  <title>Archiv | 美食殿</title>
+  <title>归档 | 美食殿</title>
   
 
 
@@ -82,7 +83,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Navigationsleiste an/ausschalten">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -112,12 +113,22 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Startseite</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archiv</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
   </ul>
@@ -150,7 +161,7 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">Öhm..! Insgesamt 3 Artikel. Bleib dran.</span>
+        <span class="collection-header">嗯..! 目前共计 3 篇日志。 就这点程度吗。</span>
       </div>
 
       
@@ -268,10 +279,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Inhaltsverzeichnis
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Übersicht
+          站点概览
         </li>
       </ul>
 
@@ -282,6 +293,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Byrd"
+      src="/uploads/avatar.png">
   <p class="site-author-name" itemprop="name">Byrd</p>
   <div class="site-description" itemprop="description">这里空空如也</div>
 </div>
@@ -291,11 +304,28 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">Artikel</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/KiroTori" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;KiroTori" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:birduse0327@gmail.com" title="E-Mail → mailto:birduse0327@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/KirovByrd/home?wvr=5" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;KirovByrd&#x2F;home?wvr&#x3D;5" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/326789147Qq" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;326789147Qq" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.instagram.com/birduse0327/" title="Instagram → https:&#x2F;&#x2F;www.instagram.com&#x2F;birduse0327&#x2F;" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+  </div>
 
 
 
@@ -324,7 +354,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Byrd</span>
 </div>
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
         

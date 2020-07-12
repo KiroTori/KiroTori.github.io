@@ -5,6 +5,7 @@ const ap = new APlayer({
     volume: 0.7,
     listFolded: true,
     listMaxHeight: 60,
+    fixed: true,
     audio: [
         {
             name: 'name1',
